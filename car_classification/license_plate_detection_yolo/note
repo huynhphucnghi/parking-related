@@ -1,0 +1,6 @@
+model is train with diffrent learning rate
+the first 150 epochs: lr = 0.001
+the following 100 epochs (150 - 250): lr = 0.00005
+the final 150 epochs (250 - 400): lr = 0.00001
+
+I have try to using exponent lr but it is not effective and loss is around 39.xx
